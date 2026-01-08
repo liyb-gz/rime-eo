@@ -7,7 +7,7 @@ schema:
     name: "世界語 Esperanto"
     version: "2026.01.08"
     author:
-        - Rime 配置
+        - Felix Li <liyb.gz@gmail.com>
     description: |
         世界語戴帽字母輸入法
         使用 X-system 輸入世界語特殊字母：
