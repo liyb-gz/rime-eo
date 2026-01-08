@@ -39,51 +39,21 @@ version: "2026.01.08"
 sort: original
 ...
 
-# ===== 普通字母 (直接輸入) =====
-a	a
-A	A
-b	b
-B	B
+# ===== 單獨輸入時保持原樣 =====
 c	c
 C	C
-d	d
-D	D
-e	e
-E	E
-f	f
-F	F
 g	g
 G	G
 h	h
 H	H
-i	i
-I	I
 j	j
 J	J
-k	k
-K	K
-l	l
-L	L
-m	m
-M	M
-n	n
-N	N
-o	o
-O	O
-p	p
-P	P
-r	r
-R	R
 s	s
 S	S
-t	t
-T	T
 u	u
 U	U
-v	v
-V	V
-z	z
-Z	Z
+x x
+X X
 
 # ===== 特殊戴帽字母 (X-system) =====
 # cx → ĉ

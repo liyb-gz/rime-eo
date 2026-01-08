@@ -25,6 +25,7 @@ engine:
         - ascii_composer
         - speller
         - punctuator
+        - selector
         - express_editor
     segmentors:
         - ascii_segmentor
@@ -35,10 +36,17 @@ engine:
         - punct_translator
         - table_translator
 
+menu:
+    alternative_select_keys: "123456789"
+
 speller:
-    alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet: "cghjsuxCGHJSUX"
+    initials: "cghjsuCGHJSU"
+    finals: "xX"
     delimiter: ""
     auto_select: true
+    auto_select_unique_candidate: true # 無重碼自動上屏，不顯示選字框
+    max_code_length: 2
 
 translator:
     dictionary: esperanto
