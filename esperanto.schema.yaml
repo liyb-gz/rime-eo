@@ -1,0 +1,54 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+    schema_id: esperanto
+    name: "世界語 Esperanto"
+    version: "2026.01.08"
+    author:
+        - Rime 配置
+    description: |
+        世界語戴帽字母輸入法
+        使用 X-system 輸入世界語特殊字母：
+          cx → ĉ, gx → ĝ, hx → ĥ, jx → ĵ, sx → ŝ, ux → ŭ
+        大寫使用 Cx, Gx 等。
+        也支持雙寫輸入：cc → ĉ, gg → ĝ 等。
+
+switches:
+    - name: ascii_mode
+      reset: 0
+      states: [Esperanto, ASCII]
+
+engine:
+    processors:
+        - ascii_composer
+        - speller
+        - punctuator
+        - express_editor
+    segmentors:
+        - ascii_segmentor
+        - abc_segmentor
+        - punct_segmentor
+        - fallback_segmentor
+    translators:
+        - punct_translator
+        - table_translator
+
+speller:
+    alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    delimiter: ""
+    auto_select: true
+
+translator:
+    dictionary: esperanto
+    enable_user_dict: false
+    enable_sentence: true
+    comment_format:
+        - xform/^~(.*)$/$1/
+
+punctuator:
+    use_space: true
+    half_shape: &punct
+        " ": { commit: " " }
+    full_shape: *punct

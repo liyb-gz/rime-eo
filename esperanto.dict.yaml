@@ -1,0 +1,143 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Esperanto 世界語輸入法詞庫
+#
+# 使用說明：
+#   世界語有六個特殊戴帽字母（supersignoj）：
+#     ĉ, ĝ, ĥ, ĵ, ŝ (帶揚抑符/circumflex)
+#     ŭ (帶短音符/breve)
+#
+#   本輸入法支持以下輸入方式：
+#
+#   【X-system】（推薦，最常用）
+#     cx → ĉ    Cx → Ĉ    CX → Ĉ
+#     gx → ĝ    Gx → Ĝ    GX → Ĝ
+#     hx → ĥ    Hx → Ĥ    HX → Ĥ
+#     jx → ĵ    Jx → Ĵ    JX → Ĵ
+#     sx → ŝ    Sx → Ŝ    SX → Ŝ
+#     ux → ŭ    Ux → Ŭ    UX → Ŭ
+#
+#   【雙字母系統】
+#     cc → ĉ    CC → Ĉ
+#     gg → ĝ    GG → Ĝ
+#     hh → ĥ    HH → Ĥ
+#     jj → ĵ    JJ → Ĵ
+#     ss → ŝ    SS → Ŝ
+#     uu → ŭ    UU → Ŭ
+#
+#   普通拉丁字母直接輸入即可。
+#
+# Author:
+#   - Rime 配置
+#   - 2026.01.08
+#
+
+---
+name: esperanto
+version: "2026.01.08"
+sort: original
+...
+
+# ===== 普通字母 (直接輸入) =====
+a	a
+A	A
+b	b
+B	B
+c	c
+C	C
+d	d
+D	D
+e	e
+E	E
+f	f
+F	F
+g	g
+G	G
+h	h
+H	H
+i	i
+I	I
+j	j
+J	J
+k	k
+K	K
+l	l
+L	L
+m	m
+M	M
+n	n
+N	N
+o	o
+O	O
+p	p
+P	P
+r	r
+R	R
+s	s
+S	S
+t	t
+T	T
+u	u
+U	U
+v	v
+V	V
+z	z
+Z	Z
+
+# ===== 特殊戴帽字母 (X-system) =====
+# cx → ĉ
+ĉ	cx
+Ĉ	Cx
+Ĉ	CX
+
+# gx → ĝ
+ĝ	gx
+Ĝ	Gx
+Ĝ	GX
+
+# hx → ĥ
+ĥ	hx
+Ĥ	Hx
+Ĥ	HX
+
+# jx → ĵ
+ĵ	jx
+Ĵ	Jx
+Ĵ	JX
+
+# sx → ŝ
+ŝ	sx
+Ŝ	Sx
+Ŝ	SX
+
+# ux → ŭ
+ŭ	ux
+Ŭ	Ux
+Ŭ	UX
+
+# ===== 特殊戴帽字母 (雙字母系統) =====
+# cc → ĉ
+ĉ	cc
+Ĉ	CC
+
+# gg → ĝ
+ĝ	gg
+Ĝ	GG
+
+# hh → ĥ
+ĥ	hh
+Ĥ	HH
+
+# jj → ĵ
+ĵ	jj
+Ĵ	JJ
+
+# ss → ŝ
+ŝ	ss
+Ŝ	SS
+
+# uu → ŭ
+ŭ	uu
+Ŭ	UU
+
