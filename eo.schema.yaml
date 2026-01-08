@@ -3,7 +3,7 @@
 # encoding: utf-8
 
 schema:
-    schema_id: esperanto
+    schema_id: eo
     name: "世界語 Esperanto"
     version: "2026.01.08"
     author:
@@ -49,7 +49,7 @@ speller:
     max_code_length: 2
 
 translator:
-    dictionary: esperanto
+    dictionary: eo
     enable_user_dict: false
     enable_sentence: true
     comment_format:
